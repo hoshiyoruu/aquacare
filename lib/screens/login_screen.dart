@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     shape: BoxShape.circle,
                     boxShadow: [
                       BoxShadow(
-                        color: primaryBlue.withOpacity(0.15),
+                        color: primaryBlue.withValues(alpha: 0.15),
                         blurRadius: 15,
                         offset: const Offset(0, 6),
                       ),
